@@ -47,7 +47,7 @@ jobs:
         run: git config --global --add safe.directory /github/workspace/src/docs/_build/html
 
 
-      - name: Force push to destination branch
+      - name: Force push to destination branch change
         uses: ad-m/github-push-action@v0.5.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

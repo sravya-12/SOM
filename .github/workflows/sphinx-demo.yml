@@ -44,7 +44,7 @@ jobs:
           git commit -m 'deploy'
 
       - name: Add exception for directory ownership
-        run: git config --global --add safe.directory sravya-12/SOM/src/docs/_build/html
+        run: git config --global --add safe.directory src/docs/_build/html
 
 
       - name: Force push to destination branch change
@@ -53,5 +53,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          directory: sravya-12/SOM/src/docs/_build/html
+          directory: src/docs/_build/html
 

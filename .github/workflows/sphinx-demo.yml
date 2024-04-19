@@ -53,5 +53,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           force: true
-          directory: src/docs/_build/html
+          directory: sravya-12/SOM/src/docs/_build/html
 

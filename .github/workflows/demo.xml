@@ -34,3 +34,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./src/docs/build/html  # Set this to where your build files are located
+        force_orphan: true

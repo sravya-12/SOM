@@ -44,5 +44,6 @@ classifiers = [
 keywords = ["SOM", "Neural Network", "Machine Learning", "Unsupervised Learning", "Clustering"]
 
 [project.urls]
+Documentation = "https://sravya-12.github.io/SOM/"
 Repository = "https://github.com/amir-jafari/SOM"
 Issues = "https://github.com/amir-jafari/SOM/issues"
